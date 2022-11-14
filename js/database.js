@@ -4,7 +4,7 @@ const data = [
   {
     id: 'd200',
     imgfront: "img\D-200-Deluxe_front.webp",
-    nameItem: "Martin D-200 Deluxe",
+    nameItem: "D-200 Deluxe",
     description:
       "Após 184 anos, em comemoração aos *quack* 2M de numeros de séries feitos, essa versão é *quack* para ser tocada até o fim dos tempos...",
     value: 124.999,
