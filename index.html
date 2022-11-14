@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Arthur Athayde Meneghini - Projeto Front-End M1</title>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./img/Duck Guitars.png" class="logo" alt="Logo da loja Duck Guitars">
+        <div class="menu">
+            <a href="#" target="_blank" class="menuOpt">Nossas relíquias</a>
+            <a href="#" target="_blank" class="menuOpt">Sobre nozes</a>
+            <a href="#" target="_blank" class="menuOpt">Zap</a>
+
+            <button id="quack" onclick="audio.play();">
+                <img src="./img/tenor.gif" alt="" class="pato">
+            </button>
+            <script type="text/javascript">
+                let audio = new Audio();
+                audio.src = '../sound/quack.mp3'
+            </script>
+
+        </div>
+    </header>
+    <!-- <div class="container">
+        <div class="vitrine">
+            <ul>
+                <li class="card">
+                    <img class="d200">
+                    <p class="tituloProduto">Martin D-200 Deluxe</p>
+                        <div class="tags">
+                            <ul>
+                                <li>
+                                    <p>Acústico</p>
+                                    <p>Violão</p>
+                                </li>
+                            </ul>
+                        </div>                   
+                    <p class="descricaoProduto">Após 184 anos, em comemoração aos 2M de numeros de séries feitos, essa
+                        versão é para ser tocada até o fim dos tempos...</p>
+                    <p class="precoProduto">$124.999</p>
+                    <button class="addCarrinho">Add no quackrrinho</button>
+                </li>
+
+                <li class="card">
+                    <img class="lotus">
+                    <p class="tituloProduto">Martin D-200 Deluxe</p>
+                    <div class="tags">
+                        <ul>
+                            <li>
+                                <p>Acústico</p>
+                                <p>Violão</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="descricaoProduto">Após 184 anos, em comemoração aos 2M de numeros de séries feitos, essa
+                        versão é para ser tocada até o fim dos tempos...</p>
+                    <p class="precoProduto">$124.999</p>
+                    <button class="addCarrinho">Add no quackrrinho</button>
+                </li>
+
+                <li class="card">
+                    <img class="squadron">
+                    <p class="tituloProduto">Martin D-200 Deluxe</p>
+                    <div class="tags">
+                        <ul>
+                            <li>
+                                <p>Acústico</p>
+                                <p>Violão</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="descricaoProduto">Após 184 anos, em comemoração aos 2M de numeros de séries feitos, essa
+                        versão é para ser tocada até o fim dos tempos...</p>
+                    <p class="precoProduto">$124.999</p>
+                    <button class="addCarrinho">Add no quackrrinho</button>
+                </li>
+
+                <li class="card">
+                    <img class="sc2020">
+                    <p class="tituloProduto">Martin D-200 Deluxe</p>
+                    <div class="tags">
+                        <ul>
+                            <li>
+                                <p>Acústico</p>
+                                <p>Violão</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="descricaoProduto">Após 184 anos, em comemoração aos 2M de numeros de séries feitos, essa
+                        versão é para ser tocada até o fim dos tempos...</p>
+                    <p class="precoProduto">$124.999</p>
+                    <button class="addCarrinho">Add no quackrrinho</button>
+                </li>
+
+                <li class="card">
+                    <img class="m0015">
+                    <p class="tituloProduto">Martin D-200 Deluxe</p>
+                    <div class="tags">
+                        <ul>
+                            <li>
+                                <p>Acústico</p>
+                                <p>Violão</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="descricaoProduto">Após 184 anos, em comemoração aos 2M de numeros de séries feitos, essa
+                        versão é para ser tocada até o fim dos tempos...</p>
+                    <p class="precoProduto">$124.999</p>
+                    <button class="addCarrinho">Add no quackrrinho</button>
+                </li>
+
+                <li class="card">
+                    <img class="streetMaster">
+                    <p class="tituloProduto">Martin D-200 Deluxe</p>
+                    <div class="tags">
+                        <ul>
+                            <li>
+                                <p>Acústico</p>
+                                <p>Violão</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="descricaoProduto">Após 184 anos, em comemoração aos 2M de numeros de séries feitos, essa
+                        versão é para ser tocada até o fim dos tempos...</p>
+                    <p class="precoProduto">$124.999</p>
+                    <button class="addCarrinho">Add no quackrrinho</button>
+                </li>
+            </ul>
+        </div>
+        <div class="sideSpace">
+            <div class="barraDePesquisa">
+                <input type="text" placeholder="Procure com o pato">
+                <button type="submit">*quack*</button>
+            </div>
+
+            <div class="carrinho">
+                <div>
+                    <p class="tituloCarrinho">Quackrrinho de compras</p>
+                </div>
+                <div class="textoCarrinho">
+                    <p>Sem nada =(</p>
+                    <p>adicione algo!!</p>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+</body>
+
+</html>
