@@ -254,7 +254,7 @@ body {
     margin: 5px;
     padding: 5px;
     margin-bottom: 70px;
-    
+    border-radius: 8px;
 }
 
 .precoProduto {
@@ -309,9 +309,14 @@ body {
     font-weight: bold;
 }
 
+.barraDePesquisa button:hover {
+    border: rgba(38, 255, 183, 0.444) solid 2px;
+}
+
 .carrinho {
     border: 2px solid #ffa7e4;
-    height: 600px;
+    width: 400px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -326,7 +331,7 @@ body {
     font-weight: bold;
 }
 
-#carQuant{
+#carQuant {
     font-size: 20px;
     font-weight: bold;
 }
@@ -339,20 +344,43 @@ body {
     align-items: center;
     /* margin: 200px auto; */
 
-    
+
 }
 
-.ulCar{
-display: flex;
-justify-content: space-evenly;
-max-width: 100%;
-flex-wrap: wrap;
-/* max-height: 100%; */
-height: 100%;
+.ulCar {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    flex-wrap: wrap;
+    /* max-height: 100%; */
+    height: 90%;
+    padding: 60px 10px;
 }
 
 
-.imgCarrinho{
+.imgCarrinho {
     height: 200px;
     border: 1px solid black;
+}
+
+main {
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.sobreInfo {
+    width: 650px;
+    height: 400px;
+    background-color: wheat;
+    border: 5px solid black;
+
+}
+
+.pSobre {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 25px;
 }

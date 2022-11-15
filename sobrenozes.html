@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <script src="./js/database.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Arthur Athayde Meneghini - Projeto Front-End M1</title>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html">
+            <img src="./img/Duck Guitars.png" class="logo" alt="Logo da loja Duck Guitars">
+        </a>
+        
+        <div class="menu">
+            <a href="index.html" class="menuOpt">Nossas relíquias</a>
+            <a href="sobrenozes.html" class="menuOpt">Sobre nozes</a>
+            <a href="https://wa.me/5511948582411?text=Converse%20com%20a%20Duck,%20a%20loja%20do%20pato!" target="_blank" class="menuOpt">Zap</a>
+
+            <button id="quack" onclick="audio.play();">
+                <img src="./img/tenor.gif" alt="" class="pato">
+            </button>
+            <script type="text/javascript">
+                let audio = new Audio();
+                audio.src = './sound/quack.mp3'
+            </script>
+
+        </div>
+    </header>
+    <main>
+        <div class="sobreInfo">
+            <p class="pSobre">A <strong>Duck Guitars</strong> foi criada por na cidade de São Paulo buscando um novo modo de encomendar seu instrumento do sonho. <br> <br>
+
+                Fundada em 2022, a Duck nasceu com sua estética influenciada por lojas de roupa indies, artistas independentes, fotógrafos e músicos, quebrando <strong>barreiras</strong> construídas entre os grandes e-commerces de instrumentos e seus clientes. <br> <br>
+                
+                Porém, essa diferença também trás consigo a <strong>exclusividade</strong>, fazendo com que só seja possível fazer a encomenda de <strong>uma</strong> unidade por modelo - uma vez que todos são importados diretamente por nós! <br> <br>
+                Esperamos que, assim como foi com a Duck, o pato te ajude a fazer a melhor escolha! 
+            </p>
+        </div>
+
+    </main>
+</body>
+
+</html>

@@ -86,9 +86,8 @@ function duckGuitars(array) {
                 let listaCarrinho = document.querySelector('.ulCar');
                 listaCarrinho.appendChild(elementoGuitarra);
 
-                let p1Carrinho = document.querySelector('.pCarrinho');
-                p1Carrinho.remove();
-
+                let divTexto  = document.querySelector('.textoCarrinho');
+                divTexto.remove();
 
             }
 
@@ -120,9 +119,9 @@ function duckGuitars(array) {
     function criarGuitarraCarrinho(guitarra) {
         let liCarrinho = document.createElement('li');
         let imgCarrinho = document.createElement('img');
-        let tituloCarrinho = document.createElement('p')
-        let precoCarrinho = document.createElement('p')
-        let botaoCarrinho = document.createElement('button')
+        let tituloCarrinho = document.createElement('p');
+        let precoCarrinho = document.createElement('p');
+        let botaoCarrinho = document.createElement('button');
 
         liCarrinho.id = 'c_' + guitarra.idNumber;
         liCarrinho.classList.add('liCarrinho')
@@ -190,8 +189,7 @@ function duckGuitars(array) {
     let ulCarrinho = document.createElement('ul');
     ulCarrinho.classList.add('ulCar');
 
-
-
+    
     let p1Carrinho = document.createElement('p');
     p1Carrinho.classList.add('pCarrinho')
     p1Carrinho.innerText = 'Sem nada =( \n adicione algo!!';
