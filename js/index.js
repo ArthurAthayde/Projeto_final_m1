@@ -141,6 +141,9 @@ function duckGuitars(array) {
             document.querySelector('#carQuant').innerHTML = ` (${carrinhoCount})`
         })
 
+
+
+        
         liCarrinho.appendChild(imgCarrinho);
         liCarrinho.appendChild(tituloCarrinho);
         liCarrinho.appendChild(precoCarrinho);

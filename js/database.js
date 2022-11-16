@@ -7,7 +7,7 @@ const data = [
     imgfront: "./img/D-200-Deluxe_front.png",
     nameItem: "D-200 Deluxe",
     description:
-      "Após 184 anos, em comemoração aos *quack* 2M de numeros de séries feitos, essa versão é *quack* para ser tocada até o fim dos tempos...",
+      "Após 184 anos, em comemoração aos *quack* 2M de números de séries feitos, essa versão é *quack* para ser tocada até o fim dos tempos...",
     value: 124.999,
     addCart: "Adicionar ao carrinho",
     tag: ["Violão", "Acústico", "Comemorativo"],
